@@ -36,7 +36,9 @@ nav a:hover {
 nav a {
     display: block;
     padding: 20px;
-    color: white;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
 }
 
 body {
