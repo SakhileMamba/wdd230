@@ -20,6 +20,10 @@ footer {
 }
 
 nav {
+    display: none;
+}
+
+nav.open {
     display: flex;
     flex-direction: column;
     background-color: #F79256;
@@ -44,6 +48,30 @@ nav a {
     font-family: "Roboto Slab", serif;
     font-weight: 600;
 }
+
+#menuShell {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu::before {
+    font-size: 2rem;
+    content: "☰";
+    margin: 16px;
+    /* color: black;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600; */
+
+}
+
+#menu.open::before {
+    font-size: 1.5rem;
+    content: "❌";
+}
+
+
 
 body {
     font-family: "Roboto", sans-serif;

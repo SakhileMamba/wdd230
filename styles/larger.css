@@ -23,6 +23,11 @@
         grid-column: 2/3;
     }
 
+    nav {
+        display: block;
+        background-color: #F79256;
+    }
+
     nav ul {
         display: flex;
     }
@@ -34,5 +39,9 @@
     section {
         box-shadow: 1px 1px 10px black;
         margin-bottom: 0;
+    }
+
+    #menuShell {
+        display: none;
     }
 }
