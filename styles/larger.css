@@ -44,4 +44,8 @@
     #menuShell {
         display: none;
     }
+
+    h1 {
+        padding-top: 0;
+    }
 }

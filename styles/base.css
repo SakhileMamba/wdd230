@@ -110,6 +110,10 @@ main {
 }
 
 h1 {
+    margin: 0;
+    padding-left: 21.44px;
+    padding-right: 21.44px;
+    padding-bottom: 21.44px;
     font-family: "Roboto Slab", serif;
     font-weight: 900;
     font-style: normal;
@@ -142,4 +146,13 @@ a {
 
 p {
     margin-bottom: 16px;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
