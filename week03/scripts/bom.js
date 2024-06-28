@@ -22,32 +22,4 @@ function displayList(item) {
     });
 }
 
-function setChapterList() {
-    window.localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
-}
-
-function getChaptersList() {
-    return JSON.parse(window.localStorage.getItem('myFavBOMList'));
-}
-
-function deleteChapter(chapter) {
-    chapter = chapter.slice(0, chapter.length - 1);
-    chaptersArray = chaptersArray.filter((item) => item !== chapter);
-    setChapterList();
-}
-
-
-button.addEventListener('click', () => {
-    if (input.value != "") {
-        displayList(input.value);
-        chaptersArray.push(input.value);
-        setChapterList();
-
-        input.value = "";
-        input.focus();
-
-    } else {
-        alert("Input scripture!");
-    }
-})
-
+functi
