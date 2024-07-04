@@ -1,0 +1,37 @@
+table {
+    margin: 100px auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+table th,
+table td {
+    padding: 8px 16px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead th[scope="col"] {
+    background-color: #424242;
+}
+
+thead th[scope="colgroup"] {
+    padding: 16px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+tbody th,
+tbody td {
+    border: 1px solid #E5E5E5;
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+}
