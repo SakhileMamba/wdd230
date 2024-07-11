@@ -1,0 +1,20 @@
+[
+    {
+        "family-name": "Mamba",
+        "move-in-date": "28 Jan 2024",
+        "number-of-family-members": 2,
+        "visited-by-bishopric": true,
+        "family-members": [
+            {
+                "name": "Sakhile",
+                "Gender": "Male",
+                "Birthdate": "28 March 1995"
+            },
+            {
+                "name": "Gabsile",
+                "Gender": "Female",
+                "Birthdate": "16 March 1996"
+            }
+        ]
+    }
+]
