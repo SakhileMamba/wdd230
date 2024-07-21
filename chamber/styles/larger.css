@@ -133,4 +133,27 @@
         margin-bottom: 8px;
     }
 
+    form {
+        grid-column: 2 / 3;
+    }
+
+    fieldset:first-of-type {
+        margin-top: 0;
+    }
+
+    /* .wf1 fieldset {
+        width: 100%;
+    }
+
+    .wf1 label,
+    .wf1 div,
+    .wf1 input[type="text"],
+    .wf1 input[type="tel"],
+    .wf1 input[type="email"],
+    textarea {
+
+        width: 100%;
+
+    } */
+
 }
