@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matsapha Chamber of Commerce Application Success</title>
+    <title>Matsapha Chamber of Commerce Homepage</title>
     <meta name="author" content="Sakhile Mamba">
-    <meta name="description" content="This is the application success page to join the Matsapha Chamber of Commerce.">
+    <meta name="description" content="This is the homepage of the Matsapha Chamber of Commerce on the internet.">
 
     <link rel="icon" href="favicon.ico">
 
@@ -39,14 +39,19 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-        <h1>Successful Application</h1>
-        <p>You have Successfully applied to become a member of the Matsapha Municipality Chamber of Commerce</p>
-
+    <main class="directory-main">
+        <h1>Matsapha Municipality Chamber of Commerce Directory</h1>
+        <div class="directory-menu">
+            <button id="grid">⏹️ Grid</button>
+            <button id="list">📄 List</button>
+        </div>
+        <hr>
+        <article class="directory-grid">
+        </article>
     </main>
     <footer>
         <div class="footer-content">
@@ -65,6 +70,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

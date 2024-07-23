@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Red Cross",
+            "address": "65 Mamba Street, Matsapha, Eswatini",
+            "phone-number": "2518 1688",
+            "website-URL": "https://www.redcross.org",
+            "image-file-name": "red-cross.webp",
+            "membership-level": "Non Profit",
+            "other-information": ""
+        },
+        {
+            "name": "Shoprite",
+            "address": "24 Manha Street, Matsapha, Eswatini",
+            "phone-number": "2518 4268",
+            "website-URL": "https://www.shoprite.co.za",
+            "image-file-name": "shoprite.webp",
+            "membership-level": "Bronze",
+            "other-information": ""
+        },
+        {
+            "name": "Spar",
+            "address": "Plot 1, Tall Street, Tmb Building, Matsapha, Eswatini",
+            "phone-number": "2518 6781",
+            "website-URL": "https://www.spar.co.za",
+            "image-file-name": "spar.webp",
+            "membership-level": "Bronze",
+            "other-information": ""
+        },
+        {
+            "name": "Clicks",
+            "address": "Plot 6, Prince Gija Street, Matsapha Eswatini",
+            "phone-number": "2404 5555",
+            "website-URL": "https://clicks.co.za",
+            "image-file-name": "clicks.webp",
+            "membership-level": "Silver",
+            "other-information": ""
+        },
+        {
+            "name": "FNB",
+            "address": "FNB building, Swaki Street, Matsapha, Eswatini",
+            "phone-number": "2518 4637",
+            "website-URL": "https://www.fnb.co.za",
+            "image-file-name": "fnb.webp",
+            "membership-level": "Gold",
+            "other-information": ""
+        },
+        {
+            "name": "Stefanutti Stocks",
+            "address": "Plot 238, King Mswati III Avenue, Matsapha, Eswatini",
+            "phone-number": "2518 3025",
+            "website-URL": "https://stefanuttistocks.com",
+            "image-file-name": "stefanutti.webp",
+            "membership-level": "Gold",
+            "other-information": "Stefanutti Stocks delivers infrastructure development projects to diverse sectors across the built environment in Southern Africa"
+        },
+        {
+            "name": "Standard Bank",
+            "address": "Plot 238, Ndlaluhlaza strees, Matsapha, Eswatini",
+            "phone-number": "2518 6523",
+            "website-URL": "https://www.standardbank.co.za",
+            "image-file-name": "standard-bank.webp",
+            "membership-level": "Silver",
+            "other-information": "A major African bank and financial services group. It is Africa's biggest lender by assets"
+        }
+    ]
+}

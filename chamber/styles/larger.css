@@ -1,6 +1,5 @@
 @media only screen and (min-width: 630px) {
 
-
     header {
         padding: 16px;
         display: flex;
@@ -83,7 +82,6 @@
         flex: 1 1;
         margin: 32px auto;
         max-width: 1280px;
-
     }
 
     .contact-info {
@@ -108,7 +106,6 @@
 
     #discovery-image-gallery {
         grid-column: 2 / 3;
-
     }
 
     #sidebar-layout figure {
@@ -122,7 +119,6 @@
         width: 100%;
         height: auto;
     }
-
 
     #time-since {
         grid-column: 1/3;
@@ -140,20 +136,11 @@
     fieldset:first-of-type {
         margin-top: 0;
     }
+}
 
-    /* .wf1 fieldset {
-        width: 100%;
+@media only screen and (min-width: 900px) {
+
+    .list section {
+        grid-template-columns: 80px 1fr max-content 250px 80px 1fr;
     }
-
-    .wf1 label,
-    .wf1 div,
-    .wf1 input[type="text"],
-    .wf1 input[type="tel"],
-    .wf1 input[type="email"],
-    textarea {
-
-        width: 100%;
-
-    } */
-
 }
