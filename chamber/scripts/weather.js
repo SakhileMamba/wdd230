@@ -2,14 +2,14 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
-// const url = "https://api.openweathermap.org/data/2.5/weather?lat=-26.50&lon=31.31&units=metric&appid=c12475d7af51087fb11f15201dc9afcf"
 
-const url = "https://api.openweathermap.org/data/2.5/onecall?lat=-26.50&lon=31.31&units=metric&exclude=minutely,hourly,alerts&app   id=c12475d7af51087fb11f15201dc9afcf"
+const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=-26.50&lon=31.31&units=metric&appid=c12475d7af51087fb11f15201dc9afcf"
 async function apiFetch() {
     try {
-        const response = await fetch(url);
+        const response = await fetch(forecastUrl);
         if (response.ok) {
-            const data = await response.json()
+
+            const data = await response.json();
             console.log(data);
             displayResults(data);
         } else {
@@ -21,9 +21,9 @@ async function apiFetch() {
 }
 
 function displayResults(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;C`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let desc = data.weather[0].description;
+    currentTemp.innerHTML = `${data.list[0].main.temp}&deg;C`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
+    let desc = data.list[0].weather[0].description;
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
     captionDesc.textContent = `${desc}`;

@@ -18,9 +18,9 @@ if (timeSince === null) {
         window.localStorage.setItem("timesince", timeNow);
 
     } else {
-        console.log("yey");
+
         let daysSince = (timeNow - timeSince) / msToDays;
-        console.log(daysSince);
+
 
         if (daysSince.toFixed(0) == 1) {
             message.textContent = `You last visited ${daysSince.toFixed(0)} day ago.`;

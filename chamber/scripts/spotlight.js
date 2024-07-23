@@ -11,9 +11,7 @@ async function getMemberData() {
     while (indexes.length < 3) {
 
         let random = Math.floor(Math.random() * data.members.length);
-        console.log(random);
 
-        console.log(indexes);
         if (indexes.indexOf(random) == -1) {
             if (data.members[random]["membership-level"] === "Silver" || data.members[random]["membership-level"] === "Gold") {
                 indexes.push(random);
