@@ -32,8 +32,6 @@ function displayResults(data) {
 
     let k = 0;
 
-    console.log(new Date(data.list[25]["dt"] * 1000).getDay());
-
     for (let i = 0; i < data.list.length; i++) {
 
         if (recent !== new Date(data.list[i]["dt"] * 1000).getDay() && k < 3) {

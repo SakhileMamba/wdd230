@@ -38,6 +38,10 @@ nav.open {
     background-color: black;
 }
 
+nav.open ul {
+    padding: 0;
+}
+
 .active {
     background-color: #A8192D;
 }
@@ -60,6 +64,7 @@ li {
     list-style: none;
     text-align: center;
 }
+
 
 #menuShell {
     height: 55px;
@@ -130,9 +135,18 @@ ul {
     padding: 16px;
 }
 
+.spotlight:nth-of-type(odd) a {
+    color: white;
+}
+
+.spotlight:nth-of-type(even) a {
+    color: black;
+}
+
 .spotlight:nth-of-type(odd) {
     background-color: #1D4E89;
     color: white;
+
 }
 
 .weather-card {
@@ -164,7 +178,7 @@ ul {
     border-collapse: collapse;
 }
 
-figure {
+div.forecast figure {
     display: flex;
     flex-direction: row;
 }
@@ -214,6 +228,17 @@ figcaption {
     color: white;
 
 }
+
+/* #sidebar ul {
+    list-style: square;
+    text-align: left;
+} */
+
+#sidebar li {
+    text-align: left;
+    list-style: square;
+}
+
 
 #discovery-image-gallery {
     display: flex;

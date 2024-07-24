@@ -55,7 +55,7 @@
         grid-column: 1/ span 2;
     }
 
-    
+
 
     .weather-card {
         grid-column: 3 / 4;
@@ -110,7 +110,7 @@
     }
 
     #sidebar-layout figure {
-
+        margin-top: 0;
         width: 93%;
         height: auto;
     }

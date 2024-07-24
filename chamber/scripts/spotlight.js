@@ -34,7 +34,7 @@ const displayMembers = (indexes, members) => {
         let contactDiv = document.createElement("div");
         let email = document.createElement("p");
         let phone = document.createElement("p");
-        let websiteURL = document.createElement("p");
+        let websiteURL = document.createElement("a");
 
 
         name.textContent = `${members[index]["name"]}`;
@@ -45,6 +45,8 @@ const displayMembers = (indexes, members) => {
         websiteURL.textContent = `${members[index]["website-URL"]}`;
 
 
+        websiteURL.setAttribute("href", `${members[index]["website-URL"]}`);
+        websiteURL.setAttribute("target", "_blank");
         card.setAttribute("class", "spotlight");
         contactDiv.setAttribute("class", "spotlight-contacts");
 

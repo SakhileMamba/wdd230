@@ -31,8 +31,8 @@ const displayMembers = (members) => {
         image.setAttribute("alt", `Logo image of ${member["name"]}`);
         image.setAttribute("loading", "lazy");
         image.setAttribute("width", "100%");
-        websiteURL.setAttribute("href", `${member["website-URL"]}`)
-        //image.setAttribute("height", "340px");
+        websiteURL.setAttribute("href", `${member["website-URL"]}`);
+        websiteURL.setAttribute("target", "_blank");
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(address);
